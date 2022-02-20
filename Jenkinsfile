@@ -52,9 +52,9 @@ pipeline{
         //         protocol: 'http', 
         //         repository: "${NexusRepo}", 
         //         version: "${Version}"
-             }
-            }
-        }
+        //      }
+        //     }
+        // }
 
         // Stage 4 : Print some information
         // stage ('Print Environment variables'){
@@ -63,8 +63,8 @@ pipeline{
         //                 echo "Version is '${Version}'"
         //                 echo "GroupID is '${GroupId}'"
         //                 echo "Name is '${Name}'"
-                    }
-                }
+                //     }
+                // }
 
         // Stage 5 : Deploying the build artifact to Apache Tomcat
         // stage ('Deploy to Tomcat'){
@@ -85,8 +85,8 @@ pipeline{
         //             verbose: false)
         //             ])
             
-            }
-        }
+        //     }
+        // }
 
     // Stage 6 : Deploying the build artifact to Docker
         // stage ('Deploy to Docker'){
@@ -107,8 +107,8 @@ pipeline{
         //             verbose: false)
         //             ])
             
-            }
-        }
+        //     }
+        // }
 
 
 
