@@ -9,8 +9,8 @@ pipeline{
     //    Version = readMavenPom().getVersion()
     //    Name = readMavenPom().getName()
     //    GroupId = readMavenPom().getGroupId()
-    }
-    // stages {
+    // }
+    stages {
         // Specify various stage with in stages
 
         // stage 1. Build
