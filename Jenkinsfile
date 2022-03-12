@@ -61,10 +61,10 @@ pipeline{
         }
 
 
-        // Stage 5 : Deploying
-        stage ('Deploy'){
+        // Stage 5 : Deploying the build artifact to Apache Tomcat
+        stage ('Deploy to Tomcat'){
             steps {
-                echo "deploying......."
+                echo "Deploying......."
                 sshPublisher(publishers: 
                 [sshPublisherDesc(
                     configName: 'Ansible_Controller', 
