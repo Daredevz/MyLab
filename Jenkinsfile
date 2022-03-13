@@ -51,6 +51,7 @@ pipeline{
                 version: "${Version}"
                 }
             }
+        }
 
         // Stage 4 : Print some information
         stage ('Print Environment variables'){
